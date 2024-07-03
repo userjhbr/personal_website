@@ -1,0 +1,17 @@
+// Define achievements
+const achievements = [
+    { id: 'visited_3d_env', description: 'Visited the 3D environment' },
+    { id: 'viewed_timeline', description: 'Viewed the career timeline' },
+];
+
+// Function to unlock an achievement
+function unlockAchievement(id) {
+    if (!localStorage.getItem(id)) {
+        localStorage.setItem(id, true);
+        alert('Achievement unlocked: ' + achievements.find(a => a.id === id).description);
+    }
+}
+
+// Example usage
+document.getElementById('3d-env-button').addEventListener('click', () => unlockAchievement('visited_3d_env'));
+document.getElementById('timeline-button').addEventListener('click', () => unlockAchievement('viewed_timeline'));
