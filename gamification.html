@@ -2,30 +2,14 @@
 <html>
 <head>
     <title>Gamification</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <h1>Achievements</h1>
     <button id="3d-env-button">Visit 3D Environment</button>
     <button id="timeline-button">View Career Timeline</button>
-    <script>
-        // Define achievements
-        const achievements = [
-            { id: 'visited_3d_env', description: 'Visited the 3D environment' },
-            { id: 'viewed_timeline', description: 'Viewed the career timeline' },
-        ];
-
-        // Function to unlock an achievement
-        function unlockAchievement(id) {
-            if (!localStorage.getItem(id)) {
-                localStorage.setItem(id, true);
-                alert('Achievement unlocked: ' + achievements.find(a => a.id === id).description);
-            }
-        }
-
-        // Example usage
-        document.getElementById('3d-env-button').addEventListener('click', () => unlockAchievement('visited_3d_env'));
-        document.getElementById('timeline-button').addEventListener('click', () => unlockAchievement('viewed_timeline'));
-    </script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
+
 
