@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>3D Virtual Environment</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <style>
         body { margin: 0; }
         canvas { display: block; }
@@ -9,6 +10,7 @@
 </head>
 <body>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/scripts.js"></script>
     <script>
         const scene = new THREE.Scene();
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -34,4 +36,3 @@
     </script>
 </body>
 </html>
-
