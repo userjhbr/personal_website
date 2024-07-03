@@ -1,0 +1,40 @@
+{
+  "title": {
+    "media": {
+      "url": "https://img.freepik.com/free-vector/red-tv-led-screen-with-light-texture-background_107791-27925.jpg",
+      "caption": "My Career"
+    },
+    "text": {
+      "headline": "Career Timeline",
+      "text": "<p>My professional journey.</p>"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "2020"
+      },
+      "media": {
+        "url": "https://img.freepik.com/free-photo/3d-rendering-neon-square-shape_23-2150824334.jpg",
+        "caption": "Started at Company ABC"
+      },
+      "text": {
+        "headline": "Job at Company ABC",
+        "text": "<p>Description of the role and achievements.</p>"
+      }
+    },
+    {
+      "start_date": {
+        "year": "2022"
+      },
+      "media": {
+        "url": "https://img.freepik.com/free-photo/dark-room-with-bright-door-light-wall_1340-44909.jpg",
+        "caption": "Joined Company XYZ"
+      },
+      "text": {
+        "headline": "Job at Company XYZ",
+        "text": "<p>Description of the role and achievements.</p>"
+      }
+    }
+  ]
+}
